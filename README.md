@@ -17,6 +17,6 @@ To translate a wordlist ```wordlist.asc``` into a javascript package containing 
 	make wordlist.asc-zlib.js
 ```
 
-Note that you must have also installed the ```browserify``` and ```uglifyjs``` modules with npm.
+Note that you must have also installed the ```browserify``` and ```uglify-js``` modules with npm.
 
 This strategy is included because it's the dumbest compression-based strategy I could come up with, and there's lots of room to improve (there's about ~60k of code in there).

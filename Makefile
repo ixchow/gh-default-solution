@@ -15,6 +15,4 @@ ECHO = /bin/echo
 
 %-basic.js : % Makefile
 	rm -f '$@'
-	$(ECHO) -n 'console.log("' >> '$@'
-	awk 'NR > 1 { print prev } { prev=$$0 } END { ORS=""; print }' '$<' | tr '\n' ' ' | perl -p -e 's/ /\\n/g' >> '$@'
-	$(ECHO) -n '")' >> '$@'
+	perl basic.pl < '$<' > '$@'

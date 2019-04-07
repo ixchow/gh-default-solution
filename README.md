@@ -1,4 +1,4 @@
-This Makefile implements two very simple solutions to provide a baseline (and submission size limit) for the [http://golf.horse](http://golf.horse) charts.
+This Makefile (and perl script) implement two very simple solutions to provide a baseline (and submission size limit) for the [http://golf.horse](http://golf.horse) charts.
 Neither is intended to be great, but they at least provide a reasonable first-cut size limit.
 
 ## Basic
